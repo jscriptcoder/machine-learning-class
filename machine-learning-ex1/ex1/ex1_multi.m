@@ -95,6 +95,20 @@ plot(1:numel(J_history), J_history, '-b', 'LineWidth', 2);
 xlabel('Number of iterations');
 ylabel('Cost J');
 
+% Exercise: Let's try another alpha
+hold on;
+alpha = 0.02;
+theta = zeros(3, 1);
+[theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
+plot(1:numel(J_history), J_history, 'r', 'LineWidth', 2);
+
+alpha = 0.08;
+theta = zeros(3, 1);
+[theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
+plot(1:numel(J_history), J_history, 'g', 'LineWidth', 2);
+% End Exercise
+
+
 % Display gradient descent's result
 fprintf('Theta computed from gradient descent: \n');
 fprintf(' %f \n', theta);
@@ -106,6 +120,12 @@ fprintf('\n');
 % not need to be normalized.
 price = 0; % You should change this
 
+% Exercise
+X_ex1 = [1650 3];
+X_ex1_norm = (X_ex1 - mu) ./ sigma;
+X_ex1_norm = [ones(1, 1) X_ex1_norm];
+price = X_ex1_norm * theta;
+% End Exercise
 
 % ============================================================
 
@@ -135,6 +155,10 @@ X = data(:, 1:2);
 y = data(:, 3);
 m = length(y);
 
+% Attempt: Let's try normalization and see what happens
+[X] = featureNormalize(X);
+% End Attempt
+
 % Add intercept term to X
 X = [ones(m, 1) X];
 
@@ -151,6 +175,12 @@ fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 price = 0; % You should change this
 
+% Exercise
+X_ex2 = [1650 3];
+X_ex2_norm = (X_ex2 - mu) ./ sigma;
+X_ex2_norm = [ones(1, 1) X_ex2_norm];
+price = X_ex2_norm * theta;
+% End Exercise
 
 % ============================================================
 

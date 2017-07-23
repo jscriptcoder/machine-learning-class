@@ -13,8 +13,6 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-
-
 % theta = [a; b] as column
 % X(i, :) = [1 x] as row
 % h = [1 x] * [a; b]
@@ -31,7 +29,6 @@ J = 0;
 % Vectorization
 hipothesis = X * theta;
 J = (1 / (2 * m)) * sum((hipothesis - y) .^2);
-
 
 % =========================================================================
 
