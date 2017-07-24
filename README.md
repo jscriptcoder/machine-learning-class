@@ -105,7 +105,7 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Octave/Matlab Tutorial
-- [x] Programming Assignment: Linear Regression
+- [x] Programming Assignment: [Linear Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex1)
 
 ---
 
