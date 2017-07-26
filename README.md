@@ -30,7 +30,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Introduction
+- [x] Quiz: Introduction [**score: <span style="color:green">100%</span>**]
 
 *Other Materials*
 - [x] Machine Learning Course Wiki
@@ -44,7 +44,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Linear Regression with One Variable
+- [x] Quiz: Linear Regression with One Variable [**score: <span style="color:green">100%</span>**]
 
 ### Linear Algebra Review
 
@@ -58,7 +58,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Practice Quiz: Linear Algebra
+- [x] Practice Quiz: Linear Algebra [**score: <span style="color:green">100%</span>**]
 
 ---
 
@@ -90,7 +90,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Linear Regression with Multiple Variables
+- [x] Quiz: Linear Regression with Multiple Variables [**score: <span style="color:green">80%</span>**]
 
 ### Octave/Matlab Tutorial
 
@@ -104,14 +104,42 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Octave/Matlab Tutorial
-- [x] Programming Assignment: [Linear Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex1)
+- [x] Quiz: Octave/Matlab Tutorial [**score: <span style="color:green">100%</span>**]
+- [x] Programming Assignment: [Linear Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex1) [<strong style="color:green">Passed</strong>]
 
 ---
 
 ### Week 3 - Logistic Regression
 
+**Classification and Representation**
+- [x] Classification
+- [x] Hypothesis Representation
+- [x] Decision Boundary
+
+**Logistic Regression Model**
+- [x] Cost Function
+- [x] Simplified Cost Function and Gradient Descent
+- [x] Advanced Optimization
+
+**Multiclass Classification**
+- [x] Multiclass Classification: One-vs-all
+
+**Review**
+- [x] Lecture Slides
+- [x] Quiz: Logistic Regression [**score: <span style="color:green">80%</span>**]
+
 ### Regularization
+
+**Solving the Problem of Overfitting**
+- [x] The Problem of Overfitting
+- [x] Cost Function
+- [x] Regularized Linear Regression
+- [x] Regularized Logistic Regression
+
+**Review**
+- [x] Lecture Slides
+- [x] Quiz: Regularization [**score: <span style="color:green">80%</span>**]
+- [ ] Programming Assignment: Logistic Regression
 
 ---
 
