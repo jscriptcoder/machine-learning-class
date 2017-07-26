@@ -30,7 +30,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Introduction [**score: <span style="color:green">100%</span>**]
+- [x] Quiz: Introduction [**score: 100%**]
 
 *Other Materials*
 - [x] Machine Learning Course Wiki
@@ -44,7 +44,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Linear Regression with One Variable [**score: <span style="color:green">100%</span>**]
+- [x] Quiz: Linear Regression with One Variable [**score: 100%**]
 
 ### Linear Algebra Review
 
@@ -58,7 +58,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Practice Quiz: Linear Algebra [**score: <span style="color:green">100%</span>**]
+- [x] Practice Quiz: Linear Algebra [**score: 100%**]
 
 ---
 
@@ -90,7 +90,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Linear Regression with Multiple Variables [**score: <span style="color:green">80%</span>**]
+- [x] Quiz: Linear Regression with Multiple Variables [**score: 80%**]
 
 ### Octave/Matlab Tutorial
 
@@ -104,8 +104,8 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Octave/Matlab Tutorial [**score: <span style="color:green">100%</span>**]
-- [x] Programming Assignment: [Linear Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex1) [<strong style="color:green">Passed</strong>]
+- [x] Quiz: Octave/Matlab Tutorial [**score: 100%**]
+- [x] Programming Assignment: [Linear Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex1) [**Passed**]
 
 ---
 
@@ -126,7 +126,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Logistic Regression [**score: <span style="color:green">80%</span>**]
+- [x] Quiz: Logistic Regression [**score: 80%**]
 
 ### Regularization
 
@@ -138,7 +138,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [x] Quiz: Regularization [**score: <span style="color:green">80%</span>**]
+- [x] Quiz: Regularization [**score: 80%**]
 - [ ] Programming Assignment: Logistic Regression
 
 ---
