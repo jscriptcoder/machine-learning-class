@@ -17,10 +17,17 @@ grad = zeros(size(theta));
 %               Compute the partial derivatives and set grad to the partial
 %               derivatives of the cost w.r.t. each parameter in theta
 
+l = ones(size(theta));
+L = eye(size(theta, 1));
+
+% This guys will take care of excluding theta(1) by making it be 0
+l(1) = 0;
+L(1) = 0;
 
 
-
-
+hipothesis = sigmoid(X * theta);
+J = 1/m * (-y' * log(hipothesis) - (1 - y)' * log(1 - hipothesis)) + ((lambda / (2*m)) * ((theta'.^2) * l));
+grad = 1/m * X' * (hipothesis - y) + ((lambda/m) * (L * theta));
 
 % =============================================================
 
