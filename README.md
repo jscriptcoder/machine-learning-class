@@ -139,11 +139,29 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Regularization [**score: 80%**]
-- [x] Programming Assignment: Logistic Regression
+- [x] Programming Assignment: [Logistic Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex2) [**Passed**]
 
 ---
 
 ### Week 4 - Neural Networks: Representation
+
+**Motivations**
+- [ ] Non-linear Hypotheses
+- [ ] Neurons and the Brain
+
+**Neural Networks**
+- [ ] Model Representation I
+- [ ] Model Representation II
+
+**Applications**
+- [ ] Examples and Intuitions I
+- [ ] Examples and Intuitions II
+- [ ] Multiclass Classification
+
+**Review**
+- [ ] Lecture Slides
+- [ ] Quiz: Neural Networks: Representation
+- [ ] Programming Assignment: Multi-class Classification and Neural Networks
 
 ---
 
