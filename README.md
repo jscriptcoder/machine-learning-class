@@ -139,7 +139,7 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Regularization [**score: 80%**]
-- [ ] Programming Assignment: Logistic Regression
+- [x] Programming Assignment: Logistic Regression
 
 ---
 
