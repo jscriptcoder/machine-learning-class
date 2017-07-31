@@ -146,21 +146,21 @@ The course will also draw from numerous case studies and applications, so that I
 ### Week 4 - Neural Networks: Representation
 
 **Motivations**
-- [ ] Non-linear Hypotheses
-- [ ] Neurons and the Brain
+- [x] Non-linear Hypotheses
+- [x] Neurons and the Brain
 
 **Neural Networks**
-- [ ] Model Representation I
-- [ ] Model Representation II
+- [x] Model Representation I
+- [x] Model Representation II
 
 **Applications**
-- [ ] Examples and Intuitions I
-- [ ] Examples and Intuitions II
-- [ ] Multiclass Classification
+- [x] Examples and Intuitions I
+- [x] Examples and Intuitions II
+- [x] Multiclass Classification
 
 **Review**
-- [ ] Lecture Slides
-- [ ] Quiz: Neural Networks: Representation
+- [x] Lecture Slides
+- [x] Quiz: Neural Networks: Representation [**score: 80%**]
 - [ ] Programming Assignment: Multi-class Classification and Neural Networks
 
 ---
