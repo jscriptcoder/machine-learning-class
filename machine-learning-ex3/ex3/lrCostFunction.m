@@ -36,14 +36,20 @@ grad = zeros(size(theta));
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
+% This logic is the same as the one in costFunctionReg.m in the
+% previous assignment (week 3). The reason is because I already
+% vectorized the algorithm in there
 
+l = ones(size(theta));
+L = eye(size(theta, 1));
 
+% This guys will take care of excluding theta(1) by making it be 0
+l(1) = 0;
+L(1) = 0;
 
-
-
-
-
-
+hipothesis = sigmoid(X * theta);
+J = 1/m * (-y' * log(hipothesis) - (1 - y)' * log(1 - hipothesis)) + ((lambda / (2*m)) * ((theta'.^2) * l));
+grad = 1/m * X' * (hipothesis - y) + ((lambda/m) * (L * theta));
 
 % =============================================================
 
