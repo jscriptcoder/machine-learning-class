@@ -161,7 +161,7 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Neural Networks: Representation [**score: 80%**]
-- [ ] Programming Assignment: Multi-class Classification and Neural Networks
+- [x] Programming Assignment: [Multi-class Classification and Neural Networks](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex3) [**Passed**]
 
 ---
 
