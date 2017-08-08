@@ -87,6 +87,9 @@ J = J_noreg + J_reg;
 %               over the training examples if you are implementing it for the 
 %               first time.
 %
+
+
+
 % Part 3: Implement regularization with the cost function and gradients.
 %
 %         Hint: You can implement this around the code for
