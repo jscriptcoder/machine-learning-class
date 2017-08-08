@@ -39,6 +39,39 @@ Theta2_grad = zeros(size(Theta2));
 %         cost function computation is correct by verifying the cost
 %         computed in ex4.m
 %
+
+X_bunit = [ones(m, 1) X];
+y_matrix = [1:num_labels] == y; % recoding y
+
+% ==== Hidden layer ====
+
+z2 = X_bunit * Theta1';
+a2 = sigmoid(z2);
+
+% ==== Output layer ====
+
+m2 = size(a2, 1);
+a2_bunit = [ones(m2, 1) a2];
+
+z3 = a2_bunit * Theta2';
+hipothesis = a3 = sigmoid(z3);
+
+% ==== Cost without regularization ====
+
+J_noreg = 1/m * sum(sum((-y_matrix .* log(hipothesis) - (1 - y_matrix) .* log(1 - hipothesis))));
+
+% ==== Calculating regularization ====
+
+% These guys will exclude the bias unit in Theta1 and Theta2
+l1 = ones(size(Theta1));
+l2 = ones(size(Theta2));
+l1(:, 1) = 0;
+l2(:, 1) = 0;
+
+J_reg = ((lambda / (2*m)) * (sum(sum(((Theta1.*l1).^2))) + sum(sum((Theta2.*l2).^2))));
+
+J = J_noreg + J_reg;
+
 % Part 2: Implement the backpropagation algorithm to compute the gradients
 %         Theta1_grad and Theta2_grad. You should return the partial derivatives of
 %         the cost function with respect to Theta1 and Theta2 in Theta1_grad and
@@ -61,22 +94,6 @@ Theta2_grad = zeros(size(Theta2));
 %               the regularization separately and then add them to Theta1_grad
 %               and Theta2_grad from Part 2.
 %
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
