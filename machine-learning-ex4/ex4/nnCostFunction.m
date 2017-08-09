@@ -105,10 +105,15 @@ l2(:, 1) = 0;
 
 J_reg = ((lambda / (2*m)) * (sum(sum(((Theta1 .* l1).^2))) + sum(sum((Theta2 .* l2).^2))));
 
+Theta1_grad_reg = ((lambda/m) * (Theta1 .* l1));
+Theta2_grad_reg = ((lambda/m) * (Theta2 .* l2));
+
+% ==== Adding regularizations ====
+
 J = J_noreg + J_reg;
 
-Theta1_grad = Theta1_grad_noreg + ((lambda/m) * (Theta1 .* l1));
-Theta2_grad = Theta2_grad_noreg + ((lambda/m) * (Theta2 .* l2));
+Theta1_grad = Theta1_grad_noreg + Theta1_grad_reg;
+Theta2_grad = Theta2_grad_noreg + Theta2_grad_reg;
 
 % -------------------------------------------------------------
 
