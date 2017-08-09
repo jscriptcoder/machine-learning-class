@@ -60,18 +60,6 @@ hipothesis = a3 = sigmoid(z3);
 
 J_noreg = 1/m * sum(sum((-y_matrix .* log(hipothesis) - (1 - y_matrix) .* log(1 - hipothesis))));
 
-% ==== Calculating regularization ====
-
-% These guys will exclude the bias unit in Theta1 and Theta2
-l1 = ones(size(Theta1));
-l2 = ones(size(Theta2));
-l1(:, 1) = 0;
-l2(:, 1) = 0;
-
-J_reg = ((lambda / (2*m)) * (sum(sum(((Theta1.*l1).^2))) + sum(sum((Theta2.*l2).^2))));
-
-J = J_noreg + J_reg;
-
 % Part 2: Implement the backpropagation algorithm to compute the gradients
 %         Theta1_grad and Theta2_grad. You should return the partial derivatives of
 %         the cost function with respect to Theta1 and Theta2 in Theta1_grad and
@@ -88,7 +76,18 @@ J = J_noreg + J_reg;
 %               first time.
 %
 
+% We get rid of the bias unit
+Theta2_nobias = Theta2(:, 2:end);
 
+% for-loop's are for losers ;-)
+d3 = a3 - y_matrix;
+d2 = (d3 * Theta2_nobias) .* sigmoidGradient(z2);
+
+D1 = d2' * X_bunit;
+D2 = d3' * a2_bunit;
+
+Theta1_grad = (1/m) * D1;
+Theta2_grad = (1/m) * D2;
 
 % Part 3: Implement regularization with the cost function and gradients.
 %
@@ -98,7 +97,15 @@ J = J_noreg + J_reg;
 %               and Theta2_grad from Part 2.
 %
 
+% These guys will exclude the bias unit column in Theta1 and Theta2
+l1 = ones(size(Theta1));
+l2 = ones(size(Theta2));
+l1(:, 1) = 0;
+l2(:, 1) = 0;
 
+J_reg = ((lambda / (2*m)) * (sum(sum(((Theta1.*l1).^2))) + sum(sum((Theta2.*l2).^2))));
+
+J = J_noreg + J_reg;
 
 % -------------------------------------------------------------
 
