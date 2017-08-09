@@ -168,23 +168,23 @@ The course will also draw from numerous case studies and applications, so that I
 ### Week 5 - Neural Networks: Learning
 
 **Cost Function and Backpropagation**
-- [ ] Cost Function
-- [ ] Backpropagation Algorithm
-- [ ] Backpropagation Intuition
+- [x] Cost Function
+- [x] Backpropagation Algorithm
+- [x] Backpropagation Intuition
 
 **Backpropagation in Practice**
-- [ ] Implementation Note: Unrolling Parameters
-- [ ] Gradient Checking
-- [ ] Random Initialization
-- [ ] Putting It Together
+- [x] Implementation Note: Unrolling Parameters
+- [x] Gradient Checking
+- [x] Random Initialization
+- [x] Putting It Together
 
 **Application of Neural Networks**
-- [ ] Autonomous Driving
+- [x] Autonomous Driving
 
 **Review**
-- [ ] Lecture Slides
-- [ ] Quiz: Neural Networks: Learning
-- [ ] Programming Assignment: Neural Network Learning
+- [x] Lecture Slides
+- [x] Quiz: Neural Networks: Learning [**score: 80%**]
+- [x] Programming Assignment: Neural Network Learning [**Passed**]
 
 ---
 
