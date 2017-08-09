@@ -105,7 +105,7 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Octave/Matlab Tutorial [**score: 100%**]
-- [x] Programming Assignment: [Linear Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex1) [**Passed**]
+- [x] Programming Assignment: [Linear Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex1) [**score: 100%**]
 
 ---
 
@@ -139,7 +139,7 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Regularization [**score: 80%**]
-- [x] Programming Assignment: [Logistic Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex2) [**Passed**]
+- [x] Programming Assignment: [Logistic Regression](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex2) [**score: 100%**]
 
 ---
 
@@ -161,7 +161,7 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Neural Networks: Representation [**score: 80%**]
-- [x] Programming Assignment: [Multi-class Classification and Neural Networks](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex3) [**Passed**]
+- [x] Programming Assignment: [Multi-class Classification and Neural Networks](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex3) [**score: 100%**]
 
 ---
 
@@ -184,7 +184,7 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Neural Networks: Learning [**score: 80%**]
-- [x] Programming Assignment: Neural Network Learning [**Passed**]
+- [x] Programming Assignment: [Neural Network Learning](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex4) [**score: 100%**]
 
 ---
 
