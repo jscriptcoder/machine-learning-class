@@ -86,8 +86,8 @@ d2 = (d3 * Theta2_nobias) .* sigmoidGradient(z2);
 D1 = d2' * X_bunit;
 D2 = d3' * a2_bunit;
 
-Theta1_grad = (1/m) * D1;
-Theta2_grad = (1/m) * D2;
+Theta1_grad_noreg = (1/m) * D1;
+Theta2_grad_noreg = (1/m) * D2;
 
 % Part 3: Implement regularization with the cost function and gradients.
 %
@@ -103,9 +103,12 @@ l2 = ones(size(Theta2));
 l1(:, 1) = 0;
 l2(:, 1) = 0;
 
-J_reg = ((lambda / (2*m)) * (sum(sum(((Theta1.*l1).^2))) + sum(sum((Theta2.*l2).^2))));
+J_reg = ((lambda / (2*m)) * (sum(sum(((Theta1 .* l1).^2))) + sum(sum((Theta2 .* l2).^2))));
 
 J = J_noreg + J_reg;
+
+Theta1_grad = Theta1_grad_noreg + ((lambda/m) * (Theta1 .* l1));
+Theta2_grad = Theta2_grad_noreg + ((lambda/m) * (Theta2 .* l2));
 
 % -------------------------------------------------------------
 
