@@ -190,7 +190,38 @@ The course will also draw from numerous case studies and applications, so that I
 
 ### Week 6 - Advice for Applying Machine Learning
 
+**Evaluating a Learning Algorithm**
+- [x] Deciding What to Try Next
+- [x] Evaluating a Hypothesis
+- [x] Model Selection and Train/Validation/Test Sets
+
+**Bias vs. Variance**
+- [ ] Diagnosing Bias vs. Variance
+- [ ] Regularization and Bias/Variance
+- [ ] Learning Curves
+- [ ] Deciding What to Do Next Revisited
+
+**Review**
+- [ ] Lecture Slides
+- [ ] Quiz: Advice for Applying Machine Learning
+- [ ] Programming Assignment: Regularized Linear Regression and Bias/Variance
+
 ### Machine Learning System Design
+
+**Building a Spam Classifier**
+- [ ] Prioritizing What to Work On
+- [ ] Error Analysis
+
+**Handling Skewed Data**
+- [ ] Error Metrics for Skewed Classes
+- [ ] Trading Off Precision and Recall
+
+**Using Large Data Sets**
+- [ ] Data For Machine Learning
+
+**Review**
+- [ ] Lecture Slides
+- [ ] Quiz: Machine Learning System Design
 
 ---
 
