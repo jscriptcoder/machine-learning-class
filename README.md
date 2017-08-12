@@ -196,14 +196,14 @@ The course will also draw from numerous case studies and applications, so that I
 - [x] Model Selection and Train/Validation/Test Sets
 
 **Bias vs. Variance**
-- [ ] Diagnosing Bias vs. Variance
-- [ ] Regularization and Bias/Variance
-- [ ] Learning Curves
-- [ ] Deciding What to Do Next Revisited
+- [x] Diagnosing Bias vs. Variance
+- [x] Regularization and Bias/Variance
+- [x] Learning Curves
+- [x] Deciding What to Do Next Revisited
 
 **Review**
-- [ ] Lecture Slides
-- [ ] Quiz: Advice for Applying Machine Learning
+- [x] Lecture Slides
+- [x] Quiz: Advice for Applying Machine Learning [**score: 100%**]
 - [ ] Programming Assignment: Regularized Linear Regression and Bias/Variance
 
 ### Machine Learning System Design
