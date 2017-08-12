@@ -51,6 +51,21 @@ error_val   = zeros(m, 1);
 %       end
 %
 
+for i = 1:m
+
+  % We train for (X(1:i, :), y(1:i)) subset and get theta
+  X_train = X(1:i, :);
+  y_train = y(1:i);
+  [theta] = trainLinearReg(X_train, y_train, lambda);
+  
+  % Note: probably the first two error_train will be 0, since a line
+  % will be able to cross through two points, after that it's most
+  % likely to increase
+  error_train(i) = linearRegCostFunction(X_train, y_train, theta, 0);
+  error_val(i) = linearRegCostFunction(Xval, yval, theta, 0);
+  
+end
+
 % ---------------------- Sample Solution ----------------------
 
 

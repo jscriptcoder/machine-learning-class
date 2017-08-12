@@ -19,16 +19,22 @@ grad = zeros(size(theta));
 %               You should set J to the cost and grad to the gradient.
 %
 
+l = ones(size(theta));
+L = eye(size(theta, 1));
 
+% This guys will take care of excluding theta(1) by making it be 0
+l(1) = 0;
+L(1) = 0;
 
+hipothesis = X * theta;
 
+J_noreg = (1 / (2 * m)) * sum((hipothesis - y) .^2);
+J_reg = (lambda / (2*m)) * ((theta'.^2) * l);
+J = J_noreg + J_reg;
 
-
-
-
-
-
-
+grad_noreg = 1/m * X' * (hipothesis - y);
+grad_reg = (lambda/m) * (L * theta);
+grad = grad_noreg + grad_reg;
 
 % =========================================================================
 
