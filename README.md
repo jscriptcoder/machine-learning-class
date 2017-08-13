@@ -204,23 +204,23 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Advice for Applying Machine Learning [**score: 100%**]
-- [ ] Programming Assignment: Regularized Linear Regression and Bias/Variance
+- [x] Programming Assignment: [Regularized Linear Regression and Bias/Variance](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex5) [**score: 100%**]
 
 ### Machine Learning System Design
 
 **Building a Spam Classifier**
-- [ ] Prioritizing What to Work On
-- [ ] Error Analysis
+- [x] Prioritizing What to Work On
+- [x] Error Analysis
 
 **Handling Skewed Data**
-- [ ] Error Metrics for Skewed Classes
-- [ ] Trading Off Precision and Recall
+- [x] Error Metrics for Skewed Classes
+- [x] Trading Off Precision and Recall
 
 **Using Large Data Sets**
-- [ ] Data For Machine Learning
+- [x] Data For Machine Learning
 
 **Review**
-- [ ] Lecture Slides
+- [x] Lecture Slides
 - [ ] Quiz: Machine Learning System Design
 
 ---
