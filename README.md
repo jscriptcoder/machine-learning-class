@@ -221,7 +221,7 @@ The course will also draw from numerous case studies and applications, so that I
 
 **Review**
 - [x] Lecture Slides
-- [ ] Quiz: Machine Learning System Design
+- [x] Quiz: Machine Learning System Design [**score: 80%**]
 
 ---
 
