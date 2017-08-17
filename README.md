@@ -229,6 +229,23 @@ The course will also draw from numerous case studies and applications, so that I
 
 ### Week 7 - Support Vector Machines
 
+**Large Margin Classification**
+- [ ] Optimization Objective
+- [ ] Large Margin Intuition
+- [ ] Mathematics Behind Large Margin Classification
+
+**Kernels**
+- [ ] Kernels I
+- [ ] Kernels II
+
+**SVMs in Practice**
+- [ ] Using An SVM
+
+**Review**
+- [ ] Lecture Slides
+- [ ] Quiz: Support Vector Machines5 questions
+- [ ] Programming Assignment: Support Vector Machines
+
 ---
 
 ### Week 8 - Unsupervised Learning
