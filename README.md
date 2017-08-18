@@ -1,5 +1,7 @@
 # Machine Learning Class
 
+https://www.coursera.org/learn/machine-learning
+
 Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it. Many researchers also think it is the best way to make progress towards human-level AI. What am I learning in this class? the most effective machine learning techniques, and gain practice implementing them and getting them to work by myself. About not only the theoretical underpinnings of learning, but also gain the practical know-how needed to quickly and powerfully apply these techniques to new problems. Finally, about some of Silicon Valley's best practices in innovation as it pertains to machine learning and AI.
 
 This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include:
@@ -204,28 +206,45 @@ The course will also draw from numerous case studies and applications, so that I
 **Review**
 - [x] Lecture Slides
 - [x] Quiz: Advice for Applying Machine Learning [**score: 100%**]
-- [ ] Programming Assignment: Regularized Linear Regression and Bias/Variance
+- [x] Programming Assignment: [Regularized Linear Regression and Bias/Variance](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex5) [**score: 100%**]
 
 ### Machine Learning System Design
 
 **Building a Spam Classifier**
-- [ ] Prioritizing What to Work On
-- [ ] Error Analysis
+- [x] Prioritizing What to Work On
+- [x] Error Analysis
 
 **Handling Skewed Data**
-- [ ] Error Metrics for Skewed Classes
-- [ ] Trading Off Precision and Recall
+- [x] Error Metrics for Skewed Classes
+- [x] Trading Off Precision and Recall
 
 **Using Large Data Sets**
-- [ ] Data For Machine Learning
+- [x] Data For Machine Learning
 
 **Review**
-- [ ] Lecture Slides
-- [ ] Quiz: Machine Learning System Design
+- [x] Lecture Slides
+- [x] Quiz: Machine Learning System Design [**score: 80%**]
 
 ---
 
 ### Week 7 - Support Vector Machines
+
+**Large Margin Classification**
+- [ ] Optimization Objective
+- [ ] Large Margin Intuition
+- [ ] Mathematics Behind Large Margin Classification
+
+**Kernels**
+- [ ] Kernels I
+- [ ] Kernels II
+
+**SVMs in Practice**
+- [ ] Using An SVM
+
+**Review**
+- [ ] Lecture Slides
+- [ ] Quiz: Support Vector Machines5 questions
+- [ ] Programming Assignment: Support Vector Machines
 
 ---
 
