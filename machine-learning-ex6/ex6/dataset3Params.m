@@ -23,12 +23,39 @@ sigma = 0.3;
 %        mean(double(predictions ~= yval))
 %
 
+tryTheseValues = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30];
+lowestError = Inf;
 
+% Will loop 8^2 times
+for tryThisC = tryTheseValues
+  for tryThisSigma = tryTheseValues
+    
+    printf("Trying C = %f and sigma = %f ...\n", tryThisC, tryThisSigma);
+    
+    % Let's trains the SVM classifier
+    model= svmTrain(X, y, tryThisC, @(x1, x2) gaussianKernel(x1, x2, tryThisSigma));
+    
+    % Get predictions
+    pred = svmPredict(model, Xval);
+    
+    % Calculate error
+    error = mean(double(pred ~= yval));
+    
+    printf("Error %f\n\n\n", error);
+    
+    % We decide whether or not to take this one
+    if lowestError > error
+      C = tryThisC;
+      sigma = tryThisSigma;
+      lowestError = error;
+    end
+  end
+end
 
-
-
-
-
+printf("We decided to go with C = %f and sigma = %f with error %f\n", ...
+  C, sigma, lowestError);
+ 
+ 
 % =========================================================================
 
 end
