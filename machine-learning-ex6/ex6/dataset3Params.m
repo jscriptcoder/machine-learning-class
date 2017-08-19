@@ -30,7 +30,7 @@ lowestError = Inf;
 for tryThisC = tryTheseValues
   for tryThisSigma = tryTheseValues
     
-    printf("Trying C = %f and sigma = %f ...\n", tryThisC, tryThisSigma);
+    fprintf("\nTrying C = %f and sigma = %f ...\n", tryThisC, tryThisSigma);
     
     % Let's trains the SVM classifier
     model= svmTrain(X, y, tryThisC, @(x1, x2) gaussianKernel(x1, x2, tryThisSigma));
@@ -41,7 +41,7 @@ for tryThisC = tryTheseValues
     % Calculate error
     error = mean(double(pred ~= yval));
     
-    printf("Error %f\n\n\n", error);
+    fprintf("Error %f\n\n", error);
     
     % We decide whether or not to take this one
     if lowestError > error
@@ -52,7 +52,7 @@ for tryThisC = tryTheseValues
   end
 end
 
-printf("We decided to go with C = %f and sigma = %f with error %f\n", ...
+fprintf("\nWe decided to go with C = %f and sigma = %f with error %f\n", ...
   C, sigma, lowestError);
  
  
