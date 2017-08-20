@@ -48,12 +48,8 @@ x = zeros(n, 1);
 %
 %
 
-
-
-
-
-
-
+% Happy solution (no looping over word_indices)
+x(word_indices) = 1;
 
 % =========================================================================
     
