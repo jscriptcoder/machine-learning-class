@@ -228,21 +228,21 @@ The course will also draw from numerous case studies and applications, so that I
 ### Week 7 - Support Vector Machines
 
 **Large Margin Classification**
-- [ ] Optimization Objective
-- [ ] Large Margin Intuition
-- [ ] Mathematics Behind Large Margin Classification
+- [x] Optimization Objective
+- [x] Large Margin Intuition
+- [x] Mathematics Behind Large Margin Classification
 
 **Kernels**
-- [ ] Kernels I
-- [ ] Kernels II
+- [x] Kernels I
+- [x] Kernels II
 
 **SVMs in Practice**
-- [ ] Using An SVM
+- [x] Using An SVM
 
 **Review**
-- [ ] Lecture Slides
-- [ ] Quiz: Support Vector Machines5 questions
-- [ ] Programming Assignment: Support Vector Machines
+- [x] Lecture Slides
+- [x] Quiz: Support Vector Machines5 questions [**score: 80%**]
+- [x] Programming Assignment: [Support Vector Machines](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex6) [**score: 100%**]
 
 ---
 
