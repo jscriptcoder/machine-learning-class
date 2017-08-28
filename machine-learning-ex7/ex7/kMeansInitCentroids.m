@@ -13,12 +13,11 @@ centroids = zeros(K, size(X, 2));
 %               the dataset X
 %
 
+% Gets random permutation of indexes in a vector mx1
+randidx = randperm(size(X, 1));
 
-
-
-
-
-
+% Gets the first K random indexes
+centroids = X(randidx(1:K), :);
 
 % =============================================================
 

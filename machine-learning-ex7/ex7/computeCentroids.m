@@ -26,12 +26,14 @@ centroids = zeros(K, n);
 % Note: You can use a for-loop over the centroids to compute this.
 %
 
-
-
-
-
-
-
+for k = 1:K
+  % We make the rows that don't belong to this centroid [0 0]
+  aux = (X .* (idx == k));
+  % Next we remove those rows
+  aux(any(aux==0, 2), :) = [];
+  % And calculate the mean
+  centroids(k, :) = mean(aux);
+end
 
 % =============================================================
 

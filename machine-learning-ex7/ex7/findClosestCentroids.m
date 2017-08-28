@@ -21,11 +21,29 @@ idx = zeros(size(X,1), 1);
 % Note: You can use a for-loop over the examples to compute this.
 %
 
+% m = size(X, 1);
 
+%for i = 1:m
+%  minNorm = Inf;
+%  for k = 1:K
+%    curNorm = norm(X(i, :) - centroids(k, :));
+%    if (minNorm >= curNorm)
+%      idx(i) = k;
+%      minNorm = curNorm;
+%    end
+%  end
+%end
 
+% I don't like loops. Let's vectorize a bit
 
+% We'll accumulate the distances to each centroid (K = columns)
+distances = [];
 
+for k = 1:K
+  distances = [distances sqrt(sum((X - centroids(k, :)) .^2 , 2))];
+end
 
+[_, idx] = min(distances, [], 2);
 
 % =============================================================
 
