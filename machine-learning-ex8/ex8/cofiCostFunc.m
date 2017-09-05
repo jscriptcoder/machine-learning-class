@@ -40,20 +40,23 @@ Theta_grad = zeros(size(Theta));
 %                     partial derivatives w.r.t. to each element of Theta
 %
 
+error = ((X * Theta') - Y).*R;
 
+J_noreg = (1/2) * sum(sum(error.^2));
+J_reg = (lambda/2) * sum(sum(Theta.^2)) + (lambda/2) * sum(sum(X.^2));
+J = J_noreg + J_reg;
 
-
-
-
-
-
-
-
-
-
-
-
-
+% What's learnt in here? dimensions are super helpfull:
+%
+%   X_grad        => num_movies  x num_features
+%     error       => num_movies x num_users
+%     Theta       => num_users  x num_features
+%
+%   Theta_grad    => num_users  x num_features
+%     error'      => num_users x num_movies
+%     X           => num_movies  x num_features
+X_grad = error * Theta + lambda*X;
+Theta_grad = error' * X + lambda*Theta;
 
 % =============================================================
 

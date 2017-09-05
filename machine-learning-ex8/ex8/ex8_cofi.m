@@ -15,6 +15,9 @@
 %  or any other files other than those mentioned above.
 %
 
+%% Initialization
+clear ; close all; clc
+
 %% =============== Part 1: Loading movie ratings dataset ================
 %  You will start by loading the movie ratings dataset to understand the
 %  structure of the data.
@@ -131,19 +134,38 @@ my_ratings = zeros(1682, 1);
 my_ratings(1) = 4;
 
 % Or suppose did not enjoy Silence of the Lambs (1991), you can set
-my_ratings(98) = 2;
+%my_ratings(98) = 2;
+
+% I did like it
+my_ratings(98) = 5;
 
 % We have selected a few movies we liked / did not like and the ratings we
 % gave are as follows:
+%my_ratings(7) = 3;
+%my_ratings(12)= 5;
+%my_ratings(54) = 4;
+%my_ratings(64)= 5;
+%my_ratings(66)= 3;
+%my_ratings(69) = 5;
+%my_ratings(183) = 4;
+%my_ratings(226) = 5;
+%my_ratings(355)= 5;
+
+% My ratings for those movies
 my_ratings(7) = 3;
-my_ratings(12)= 5;
-my_ratings(54) = 4;
-my_ratings(64)= 5;
-my_ratings(66)= 3;
+my_ratings(12) = 3;
+my_ratings(23) = 3;
+my_ratings(29) = 3;
+my_ratings(38) = 5;
+my_ratings(63) = 1;
+my_ratings(64) = 5;
+my_ratings(65) = 5;
+my_ratings(66) = 2;
 my_ratings(69) = 5;
-my_ratings(183) = 4;
-my_ratings(226) = 5;
-my_ratings(355)= 5;
+my_ratings(89) = 3;
+my_ratings(183) = 5;
+my_ratings(226) = 4;
+my_ratings(355) = 5;
 
 fprintf('\n\nNew user ratings:\n');
 for i = 1:length(my_ratings)
