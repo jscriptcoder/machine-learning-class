@@ -283,7 +283,42 @@ The course will also draw from numerous case studies and applications, so that I
 
 ### Week 9 - Anomaly Detection
 
+**Density Estimation**
+- [x] Problem Motivation
+- [x] Gaussian Distribution
+- [x] Algorithm
+
+**Building an Anomaly Detection System**
+- [x] Developing and Evaluating an Anomaly Detection System
+- [x] Anomaly Detection vs. Supervised Learning
+- [x] Choosing What Features to Use
+
+**Multivariate Gaussian Distribution (Optional)**
+- [x] Multivariate Gaussian Distribution
+- [x] Anomaly Detection using the Multivariate Gaussian Distribution
+
+**Review**
+- [x] Lecture Slides
+- [x] Quiz: Anomaly Detection [**score: 100%**]
+
 ### Recommender Systems
+
+**Predicting Movie Ratings**
+- [x] Problem Formulation
+- [x] Content Based Recommendations
+
+**Collaborative Filtering**
+- [x] Collaborative Filtering
+- [x] Collaborative Filtering Algorithm
+
+**Low Rank Matrix Factorization**
+- [x] Vectorization: Low Rank Matrix Factorization
+- [x] Implementational Detail: Mean Normalization
+
+**Review**
+- [x] Lecture Slides
+- [x] Quiz: Recommender Systems [**score: 100%**]
+- [x] Programming Assignment: [Anomaly Detection and Recommender Systems](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex8) [**score: 100%**]
 
 ---
 
