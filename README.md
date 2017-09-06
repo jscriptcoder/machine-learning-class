@@ -248,7 +248,36 @@ The course will also draw from numerous case studies and applications, so that I
 
 ### Week 8 - Unsupervised Learning
 
+**Clustering**
+- [x] Unsupervised Learning: Introduction
+- [x] K-Means Algorithm
+- [x] Optimization Objective
+- [x] Random Initialization
+- [x] Choosing the Number of Clusters
+
+**Review**
+- [x] Lecture Slides
+- [x] Quiz: Unsupervised Learning [**score: 100%**]
+
 ### Dimensionality Reduction
+
+**Motivation**
+- [x] Motivation I: Data Compression
+- [x] Motivation II: Visualization
+
+**Principal Component Analysis**
+- [x] Principal Component Analysis Problem Formulation
+- [x] Principal Component Analysis Algorithm
+
+**Applying PCA**
+- [x] Reconstruction from Compressed Representation
+- [x] Choosing the Number of Principal Components
+- [x] Advice for Applying PCA
+
+**Review**
+- [x] Lecture Slides
+- [x] Quiz: Principal Component Analysis [**score: 100%**]
+- [x] Programming Assignment: [K-Means Clustering and PCA](https://github.com/jscriptcoder/machine-learning-class/tree/master/machine-learning-ex7) [**score: 100%**]
 
 ---
 
